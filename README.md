@@ -25,7 +25,7 @@
   >>> from task.flask_server import Users
   ```
   
-  Look at the Users model below, which has id, username, password and token fields. Username and token fields are unique. The constructor accepts only username and password.
+  Look at the Users model below, which has **id**, **username**, **password** and **token** fields. **Username** and **token** fields are unique. The constructor accepts only **username** and **password**.
   ```bash
   class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True)
